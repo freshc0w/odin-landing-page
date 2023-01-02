@@ -35,7 +35,7 @@ ul {
     align-items: flex-start;
     gap: 16px;
     justify-content: space-between;
-    padding: 48px 0;
+    padding: 72px 0;
     background-color:#1f2937;
 }
 
@@ -67,6 +67,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     font-size:24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(240,240,240,0.19)
 }
 
 .sign-up:hover {
@@ -148,4 +149,14 @@ button.sign-up-2 {
 .sign-up-2:hover {
     color: #3882f6;
     background-color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    font-size: 22px;
+    color:#e5e7eb;
+    padding: 12px;
 }
