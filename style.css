@@ -58,7 +58,7 @@ ul {
     color: #e5e7eb
 }
 
-.sign-up {
+button {
     background-color: #3882f6;
     color: white;
     padding: 8px 24px;
@@ -66,6 +66,7 @@ ul {
     border-radius: 8px;
     transition-duration: 0.4s;
     cursor: pointer;
+    font-size:24px;
 }
 
 .sign-up:hover {
@@ -93,10 +94,58 @@ img {
     flex: auto;
     justify-content: center;
     gap: 42px;
+    padding-bottom: 96px;
 
 }
 
 .sub-info {
     text-align: center;
     max-width: 250px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 96px;
+    align-items: center;
+    background-color: #e5e7eb
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 0px;
+    max-width: 1000px;
+}
+
+.quote-ref {
+    align-self: flex-end;
+    justify-self: flex-start;
+    margin-right: 22px;
+    max-width: 1000px;
+    margin-right: 300px
+}
+
+.container-4 {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+    margin: 72px 168px;
+    padding: 36px 72px;
+    border-radius: 8px;
+}
+
+.container-4 .text-1 {
+    font-size: 24px;
+    font-weight: 800
+}
+
+button.sign-up-2 {
+    border: 4px #e5e7eb solid;
+}
+.sign-up-2:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
 }
